@@ -1,0 +1,165 @@
+/* 1)Mover el menú a la derecha 
+#contenedor {
+  width: 700px;
+  margin: 20px auto;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#cabecera, #pie {
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#menu {
+  float: right;
+  width: 180px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contenido {
+  float: right;
+  width: calc(100% - 180px - 10px);
+  margin-left: 0;   
+  margin-right: 10px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#pie {
+  clear: both;
+}
+*/
+
+/* 2) Eliminar el menú 
+#contenedor {
+  width: 700px;
+  margin: 20px auto;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#cabecera, #pie {
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#menu {
+  visibility: hidden;
+  float: left;
+  width: 180px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contenido {
+  float: none;
+  width: calc(100% - 180px - 10px);
+  margin-left: 0px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#pie {
+  clear: both;
+}
+*/
+
+/* 3) Ocultar el pie de página */
+#contenedor {
+  width: 700px;
+  margin: 20px auto;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#cabecera{
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#menu {
+  float: left;
+  width: 180px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contenido {
+  float: left;
+  width: calc(100% - 180px - 10px);
+  margin-left: 10px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#pie {
+  visibility: hidden;
+  clear: both;
+}
+
+
+
+
+/* 4) Ocultar el encabezado 
+#contenedor {
+  width: 700px;
+  margin: 20px auto;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#cabecera {
+    visibility: hidden;
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#menu {
+  float: left;
+  width: 180px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contenido {
+  float: left;
+  width: calc(100% - 180px - 10px);
+  margin-left: 10px;
+  min-height: 250px;
+  border: 2px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#pie {
+ 
+  border: 2px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+*/

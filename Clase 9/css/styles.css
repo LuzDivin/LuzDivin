@@ -1,0 +1,88 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("noticias.css");
+@import url("ads.css");
+@import url("responsive.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.suscripcion{
+
+    background:white;
+
+    padding:40px;
+
+    margin-top:40px;
+
+    border-radius:10px;
+
+}
+
+.form-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+.campo{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.campo input{
+
+    padding:10px;
+
+}
+
+small{
+
+    color:red;
+
+    min-height:20px;
+
+}
+
+.botonEnviar{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}
+
+@media(max-width:768px){
+
+    .form-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+

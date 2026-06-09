@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+
+    /* MENU DESKTOP */
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .hamburguesa {
+        display: none;
+    }
+
+
+    /* NOTICIAS SECUNDARIAS EN FILA */
+    .noticias-secundarias {
+        flex-direction: row;
+    }
+
+    .card-noticia {
+        width: 50%;
+    }
+
+}

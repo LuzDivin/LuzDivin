@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Ahora - Grupo 7</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <!-- HEADER -->
+    <header id="inicio">
+
+        <div class="logo-fecha">
+            <h1>Noticias Ahora - Grupo 7</h1>
+            <p>11 de Mayo de 2026</p>
+        </div>
+
+        <!-- HAMBURGUESA -->
+        <div class="hamburguesa">
+            ☰
+        </div>
+
+        <!-- MENU -->
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#politica">Política</a>
+            <a href="#economia">Economía</a>
+            <a href="#tecnologia">Tecnología</a>
+            <a href="#deportes">Deportes</a>
+        </nav>
+
+    </header>
+
+
+    <!-- NOTICIA PRINCIPAL -->
+    <section class="noticia-principal">
+
+        <img src="img/Noticia principal.jpg" alt="Noticia principal">
+
+        <h2>
+            Cómo la tecnología revoluciona el comercio mundial
+        </h2>
+
+        <p>
+            La tecnología está desempeñando un papel fundamental en la reducción de fricciones comerciales. Durante la pandemia de COVID-19, los avances tecnológicos -como el comercio electrónico, los pagos digitales, la computación en nube, el Internet de las Cosas (IoT) y la 5G- alteraron significativamente el comercio internacional. La inteligencia artificial (IA) ya se está integrando en diversos procesos relacionados con el comercio, mientras que se espera que la robótica, la realidad virtual y la impresión 3D se integren cada vez más en el comercio a medio plazo.
+        </p>
+
+        <a href="https://es.weforum.org/stories/2024/07/como-tradetech-revoluciona-el-comercio-mundial-1bac641b2f/">
+            Leer más
+        </a>
+
+    </section>
+
+
+    <!-- NOTICIAS SECUNDARIAS -->
+    <section class="noticias-secundarias">
+
+
+        <!-- POLITICA -->
+        <article id="politica" class="card-noticia">
+
+            <img src="img/politica.jpg" alt="Política">
+
+            <h3>
+                La mesa política volverá a reunirse con la reforma electoral en debate y en medio de nuevas fricciones internas
+            </h3>
+
+            <p>
+                La tensión que marcó la última reunión de Gabinete tendrá continuidad esta semana, cuando la mesa política vuelva a reunirse el martes en Casa Rosada para limar asperezas e intentar recuperar el curso de una gestión que se encuentra marcada por los conflictos internos y los movimientos en la causa que investiga al jefe de Gabinete, Manuel Adorni, por presunto enriquecimiento ilícito.
+            </p>
+
+            <a href="https://www.infobae.com/politica/2026/05/10/la-mesa-politica-volvera-a-reunirse-con-la-reforma-electoral-en-debate-y-en-medio-de-nuevas-fricciones-internas/">
+                Leer noticia
+            </a>
+
+        </article>
+
+
+        <!-- ECONOMIA -->
+        <article id="economia" class="card-noticia">
+
+            <img src="img/economia.jpg" alt="Economía">
+
+            <h3>
+                El consumo muestra signos de recuperación pero hay letra chica con las tarjetas: alerta para bancos y comercios
+            </h3>
+
+            <p>
+                La economía argentina continúa transitando un sendero de fragilidad y señales mixtas. En febrero de 2026, el Indicador de Consumo (IC) elaborado por la Cámara Argentina de Comercio y Servicios (CAC) registró un avance del 0,5% en la comparación interanual.
+            </p>
+
+            <a href="https://www.cronista.com/economia-politica/el-consumo-muestra-signos-de-recuperacion-pero-hay-letra-chica-con-las-tarjetas-alerta-para-bancos-y-comercios/">
+                Leer noticia
+            </a>
+
+        </article>
+
+
+        <!-- TECNOLOGIA -->
+        <article id="tecnologia" class="card-noticia">
+
+            <img src="img/tecnologia.jpg" alt="Tecnología">
+
+            <h3>
+                Los 5 avances más importantes de la IA en 2025
+            </h3>
+
+            <p>
+                En 2025, la Inteligencia Artificial dejó definitivamente la etapa experimental para consolidarse como infraestructura estratégica. Más allá del ruido mediático, hubo avances concretos que ya están transformando economías, mercados laborales y relaciones de poder tecnológico a escala global.
+            </p>
+
+            <a href="https://inteligenciaargentina.ar/inteligencia-artificial/los-5-avances-mas-importantes-de-la-ia-en-2025">
+                Leer noticia
+            </a>
+
+        </article>
+
+
+        <!-- DEPORTES -->
+        <article id="deportes" class="card-noticia">
+
+            <img src="img/deportes.jpg" alt="Deportes">
+
+            <h3>
+                La historia de la "nueva" Copa del Mundo que ganó la Argentina
+            </h3>
+
+            <p>
+                La última Copa del Mundo que se jugó en Qatar y que quedó en poder de la Selección Argentina fue un trofeo especial, único, una nueva versión si se lo compara con el que comenzó a entregarse en 1974.
+            </p>
+
+            <a href="https://www.espn.com.ar/futbol/mundial/nota/_/id/11435386/la-historia-de-la-nueva-copa-del-mundo-que-gano-la-argentina">
+                Leer noticia
+            </a>
+
+        </article>
+
+    </section>
+
+
+    <!-- PUBLICIDAD -->
+    <aside class="publicidad">
+
+        <h3>Publicidad</h3>
+
+        <img src="https://picsum.photos/600/120" alt="Publicidad">
+
+    </aside>
+
+    <section class="suscripcion">
+
+<h2 id="tituloFormulario">
+HOLA
+</h2>
+
+<form id="formularioSuscripcion">
+
+<div class="form-grid">
+
+<div class="campo">
+
+<label>Nombre Completo</label>
+
+<input id="nombre">
+
+<small id="errorNombre"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Email</label>
+
+<input id="email">
+
+<small id="errorEmail"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Contraseña</label>
+
+<input
+type="password"
+id="password">
+
+<small id="errorPassword"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Repetir contraseña</label>
+
+<input
+type="password"
+id="repetir">
+
+<small id="errorRepetir"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Edad</label>
+
+<input id="edad">
+
+<small id="errorEdad"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Telefono</label>
+
+<input id="telefono">
+
+<small id="errorTelefono"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Direccion</label>
+
+<input id="direccion">
+
+<small id="errorDireccion"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Ciudad</label>
+
+<input id="ciudad">
+
+<small id="errorCiudad"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>Codigo Postal</label>
+
+<input id="cp">
+
+<small id="errorCp"></small>
+
+</div>
+
+
+<div class="campo">
+
+<label>DNI</label>
+
+<input id="dni">
+
+<small id="errorDni"></small>
+
+</div>
+
+</div>
+
+<div class="botonEnviar">
+
+<button>
+
+Enviar
+
+</button>
+
+</div>
+
+</form>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Noticias Ahora - Todos los derechos reservados - Grupo 7
+        </p>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

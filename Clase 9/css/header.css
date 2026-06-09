@@ -1,0 +1,17 @@
+header {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+}
+
+.logo-fecha {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hamburguesa {
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}

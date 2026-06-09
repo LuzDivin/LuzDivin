@@ -1,0 +1,8 @@
+nav {
+    display: none;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem;
+}
